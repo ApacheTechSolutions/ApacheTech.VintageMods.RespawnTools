@@ -1,0 +1,30 @@
+{
+  // ReSharper disable CommentTypo
+  // ReSharper disable IdentifierTypo
+  // ReSharper disable StringLiteralTypo
+  // ==================================================================================
+  //  Respawn Tools - Language File
+  // ==================================================================================
+  //
+  //    Language: English
+  //    Language Code: en
+  //    Translated By: Apache
+  //    Mod Version: 1.0.0
+  //    
+  // ==================================================================================
+
+  "ModTitle": "Respawn Tools",
+  "ModDescription": "Adds items to the game that allow players to set temporary respawn locations.",
+
+  // ==================================================================================
+  //  Respawn Beacon: 
+  // ==================================================================================
+
+  "block-respawnbeacon": "Respawn Beacon",
+  "Features.RespawnBeacon.Dialogue.Title": "Respawn Beacon Settings",
+  "Features.RespawnBeacon.Dialogue.lblEnabled": "Enabled:",
+  "Features.RespawnBeacon.Dialogue.lblEnabled.HoverText": "Players will only respawn at the beacon, when it is enabled.",
+  "Features.RespawnBeacon.Dialogue.lblRadius": "Radius:",
+  "Features.RespawnBeacon.Dialogue.lblRadius.HoverText": "Players within this radius will repawn at this beacon, rather than their own respawn point.",
+  "Features.RespawnBeacon.Interactions.OpenGUI": "Change Settings" 
+}

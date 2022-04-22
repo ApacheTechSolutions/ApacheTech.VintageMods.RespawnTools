@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApacheTech.VintageMods.RespawnTools", "ApacheTech.VintageMods.RespawnTools\ApacheTech.VintageMods.RespawnTools.csproj", "{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4D407DBD-1C9C-4795-AEA2-DA261C3AF942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{3B348971-0B70-49C8-BA68-4E24C8824114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mod", "Mod", "{866164D1-2A2B-4A0D-A98B-4521DDF1E068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheTech.VintageMods.DotNetFrameworkLauncher", "..\ApacheTech.VintageMods.DotNetFrameworkLauncher\ApacheTech.VintageMods.DotNetFrameworkLauncher\ApacheTech.VintageMods.DotNetFrameworkLauncher.csproj", "{EBC0233E-F9F2-4B60-B145-143CD650A63B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41} = {CAA41A91-5CA2-4DE3-A52F-B38E04592C41}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApacheTech.VintageMods.Core", "..\ApacheTech.VintageMods.Core\ApacheTech.VintageMods.Core\ApacheTech.VintageMods.Core.csproj", "{6657148C-3C2F-4675-B1A1-9B8F88F55E65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1891BCA-D603-48C3-8DB0-44F6D97D657E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Package|Any CPU = Package|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Package|Any CPU.ActiveCfg = Package|Any CPU
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Package|Any CPU.Build.0 = Package|Any CPU
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Package|Any CPU.ActiveCfg = Package|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Package|Any CPU.Build.0 = Package|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Package|Any CPU.ActiveCfg = Package|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Package|Any CPU.Build.0 = Package|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAA41A91-5CA2-4DE3-A52F-B38E04592C41} = {866164D1-2A2B-4A0D-A98B-4521DDF1E068}
+		{3B348971-0B70-49C8-BA68-4E24C8824114} = {4D407DBD-1C9C-4795-AEA2-DA261C3AF942}
+		{EBC0233E-F9F2-4B60-B145-143CD650A63B} = {3B348971-0B70-49C8-BA68-4E24C8824114}
+		{6657148C-3C2F-4675-B1A1-9B8F88F55E65} = {4D407DBD-1C9C-4795-AEA2-DA261C3AF942}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CDE7FD7-065A-4557-BC82-4C82F4C5DA35}
+	EndGlobalSection
+EndGlobal

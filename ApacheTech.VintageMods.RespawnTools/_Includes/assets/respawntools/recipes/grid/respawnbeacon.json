@@ -1,0 +1,24 @@
+{
+  "ingredientPattern": "IGI,GMG,IGI",
+  "ingredients": {
+    "I": {
+      "type": "item",
+      "code": "game:ingot-iron"
+    },
+    "G": {
+      "type": "item",
+      "code": "game:gear-temporal"
+    },
+    "M": {
+      "type": "block",
+      "code": "game:meteorite-iron"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": {
+    "type": "block",
+    "code": "respawnbeacon",
+    "quantity": 1
+  }
+}
